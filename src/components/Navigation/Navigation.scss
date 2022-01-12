@@ -7,7 +7,7 @@ $title-font: 'Montserrat', sans-serif;
 
 .page-header {
   width: 100%;
-  height: 4rem;
+  height: 8vh;
   padding: 0 1rem;
   display: flex;
   justify-content: space-between;
@@ -32,7 +32,7 @@ $title-font: 'Montserrat', sans-serif;
 }
 
 .navigation-item {
-  height: 3rem;
+  height: 6vh;
   display: flex;
   align-items: center;
   padding: 0.5rem;
@@ -54,4 +54,25 @@ $title-font: 'Montserrat', sans-serif;
 .navigation-item:hover {
   border-color: $ink-blue;
   background-color: $ink-blue;
+}
+
+.page-left {
+  height: 92vh;
+  width: 2.5rem;
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $dark;
+}
+
+.left-links {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.left-links:last-child {
+  margin-bottom: 0;
 }
