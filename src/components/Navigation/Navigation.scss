@@ -1,0 +1,57 @@
+@use 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Work+Sans:wght@200;300;400&display=swap';
+
+$dark: #22252C;
+$ink-blue: #062F4F;
+$ember: #B82601;
+$title-font: 'Montserrat', sans-serif;
+
+.page-header {
+  width: 100%;
+  height: 4rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $dark;
+}
+
+.header-title {
+  font-family: $title-font;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.header-link {
+  text-decoration: none;
+}
+
+.header-navigation {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navigation-item {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  font-family: $title-font;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-right: 2px solid $ember;
+  border-left: 2px solid $ember;
+}
+
+.navigation-item:last-child {
+  border-left: none;
+}
+
+.active {
+  background-color: $ember;
+}
+
+.navigation-item:hover {
+  border-color: $ink-blue;
+  background-color: $ink-blue;
+}
