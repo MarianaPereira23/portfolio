@@ -2,7 +2,7 @@
 
 $dark: #22252C;
 $ink-blue: #062F4F;
-$ember: #B82601;
+$posy-rose: #813772;
 $title-font: 'Montserrat', sans-serif;
 
 .page-header {
@@ -39,8 +39,8 @@ $title-font: 'Montserrat', sans-serif;
   font-family: $title-font;
   font-size: 1.2rem;
   font-weight: 500;
-  border-right: 2px solid $ember;
-  border-left: 2px solid $ember;
+  border-right: 2px solid $posy-rose;
+  border-left: 2px solid $posy-rose;
 }
 
 .navigation-item:last-child {
@@ -48,12 +48,11 @@ $title-font: 'Montserrat', sans-serif;
 }
 
 .active {
-  background-color: $ember;
+  color: $posy-rose;
 }
 
 .navigation-item:hover {
-  border-color: $ink-blue;
-  background-color: $ink-blue;
+  background-color: $posy-rose;
 }
 
 .page-left {
