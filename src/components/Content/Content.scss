@@ -1,17 +1,47 @@
+@use 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Work+Sans:wght@200;300;400;500&display=swap';
+
 $posy-rose: #813772;
 $ink-blue: #062F4F;
+$text-font: 'Work Sans', sans-serif;
 
 .page-about {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
-}
-
-.about-timeline {
-  width: 100%;
 }
 
 .about-info {
-  width: 100%;
+  width: 50%;
+}
+
+.about-timeline {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+}
+
+.timeline-date,
+.timeline-info {
+  color: $ink-blue;
+  font-family: $text-font !important;
+}
+
+.timeline-date {
+  font-weight: 500 !important;
+}
+
+.timeline-info {
+  font-weight: 200 !important;
+}
+
+.timeline-dot {
+  background-color: $posy-rose !important;
 }

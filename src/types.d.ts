@@ -1,6 +1,5 @@
-type TimelineItem = {
+type Item = {
+  date: string;
   title: string;
-  contentTitle: string;
-  contentText: string;
-  contentDetailedText: string;
+  text: string;
 }

@@ -7,3 +7,4 @@ A simple frontend website designed to showcase my work.
 - React;
 - Typescript;
 - Sass;
+- Material UI for the Timeline component;
