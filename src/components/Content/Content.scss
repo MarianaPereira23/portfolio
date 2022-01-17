@@ -13,23 +13,34 @@ $text-font: 'Work Sans', sans-serif;
 
 .about-info {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .info-title {
-  color: $dark;
+  color: $posy-rose;
   font-weight: 400;
   font-size: 1.4rem;
   text-align: center;
 }
 
 .info-text {
-  padding-bottom: 1.5rem;
+  padding: 2rem 1rem;
+  font-weight: 200;
+  line-height: 1.5rem;
+  margin: 1rem 0;
+  border: 2px solid $ink-blue;
+  border-radius: 5px;
 }
 
 .info-skills {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 1rem;
+  border: 2px solid $ink-blue;
+  border-radius: 5px;
 }
 
 .info-skills ul {

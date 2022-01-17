@@ -10,7 +10,9 @@ const About: React.FC = () => {
       <div className="about-info">
         <h2 className="info-title">About me</h2>
         <section className="info-text">
-          
+          <p>My journey into software development started in 2018 when I decided to leave architecture and learn to code.<br/>
+          Initially all my learning was done through Youtube videos and tutorials until, in October 2019, I decided to join Code Institute to get a better understanding of the basics.<br/>
+          Recently I applied, and was selected, to salt's full-stack javascript program, turning finally my dream, into a career.</p>
         </section>
         <h2 className="info-title">Skills</h2>
         <section className="info-skills">
