@@ -1,5 +1,6 @@
 @use 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Work+Sans:wght@200;300;400;500&display=swap';
 
+$dark: #22252C;
 $posy-rose: #813772;
 $ink-blue: #062F4F;
 $text-font: 'Work Sans', sans-serif;
@@ -12,6 +13,48 @@ $text-font: 'Work Sans', sans-serif;
 
 .about-info {
   width: 50%;
+}
+
+.info-title {
+  color: $dark;
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.info-text {
+  padding-bottom: 1.5rem;
+}
+
+.info-skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-skills ul {
+  width: min-content;
+  padding: 2rem 0;
+  list-style: none;
+}
+
+.info-skills ul:first-child {
+  padding-right: 4rem;
+}
+
+.skills-item {
+  display: flex;
+  align-items: center;
+  color: $dark;
+  font-size: 0.9rem;
+  padding-bottom: 0.8rem;
+}
+
+#item-icon {
+  color: $dark;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-right: 0.4rem;
 }
 
 .about-timeline {
@@ -30,15 +73,16 @@ $text-font: 'Work Sans', sans-serif;
 
 .timeline-date,
 .timeline-info {
-  color: $ink-blue;
   font-family: $text-font !important;
 }
 
 .timeline-date {
+  color: $ink-blue;
   font-weight: 500 !important;
 }
 
 .timeline-info {
+  color: $dark;
   font-weight: 200 !important;
 }
 

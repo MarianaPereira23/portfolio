@@ -1,5 +1,6 @@
 @use 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Work+Sans:wght@200;300;400&display=swap';
 
+$text-color: #FFFFFF;
 $dark: #22252C;
 $ink-blue: #062F4F;
 $posy-rose: #813772;
@@ -19,6 +20,7 @@ $title-font: 'Montserrat', sans-serif;
   font-family: $title-font;
   font-size: 2rem;
   font-weight: 700;
+  color: $text-color;
 }
 
 .header-link {
@@ -41,6 +43,7 @@ $title-font: 'Montserrat', sans-serif;
   font-weight: 500;
   border-right: 2px solid $posy-rose;
   border-left: 2px solid $posy-rose;
+  color: $text-color;
 }
 
 .navigation-item:last-child {
@@ -70,6 +73,7 @@ $title-font: 'Montserrat', sans-serif;
 .left-links {
   margin-bottom: 2rem;
   font-size: 1.5rem;
+  color: $text-color;
 }
 
 .left-links:last-child {

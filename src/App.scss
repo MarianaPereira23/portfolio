@@ -1,6 +1,5 @@
 @use 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Work+Sans:wght@200;300;400&display=swap';
 
-$text-color: #FFFFFF;
 $text-font: 'Work Sans', sans-serif;
 
 * {
@@ -8,7 +7,6 @@ $text-font: 'Work Sans', sans-serif;
   padding: 0;
   box-sizing: border-box;
   font-family: $text-font;
-  color: $text-color;
   font-weight: 200;
 }
 
