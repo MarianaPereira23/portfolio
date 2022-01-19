@@ -14,9 +14,9 @@ const App: React.FC = () => {
       <Side />
       <section className="page-right">
         <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/about" element={<About />}/>
-          <Route path="/projects" element={<Projects />}/>
+          <Route path="/portfolio/" element={<Home />}/>
+          <Route path="/portfolio/about" element={<About />}/>
+          <Route path="/portfolio/projects" element={<Projects />}/>
         </Routes>
       </section>
     </div>
