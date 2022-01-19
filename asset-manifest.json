@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.280ec90c.css",
+    "main.js": "/portfolio/static/js/main.586cbb52.js",
+    "static/media/TodaysGoals.png": "/portfolio/static/media/TodaysGoals.19b3eb2b10e4057f4ef9.png",
+    "static/media/Libris.png": "/portfolio/static/media/Libris.388233c157b493213690.png",
+    "static/media/GameHub.png": "/portfolio/static/media/GameHub.36911d2122dd3ea27097.png",
+    "static/media/Mariana.png": "/portfolio/static/media/Mariana.8ce27d0fe02aeffeb469.png",
+    "static/media/TaskTracker.png": "/portfolio/static/media/TaskTracker.cea203fd9e469e04a438.png",
+    "index.html": "/portfolio/index.html",
+    "main.280ec90c.css.map": "/portfolio/static/css/main.280ec90c.css.map",
+    "main.586cbb52.js.map": "/portfolio/static/js/main.586cbb52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.280ec90c.css",
+    "static/js/main.586cbb52.js"
+  ]
+}
