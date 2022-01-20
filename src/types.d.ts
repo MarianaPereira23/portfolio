@@ -6,6 +6,7 @@ type Item = {
 
 type Project = {
   name: string;
+  tech: string;
   website: string;
   code: string;
   image: string;
